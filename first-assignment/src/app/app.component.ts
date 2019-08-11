@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { SuccessAlertComponent } from './components/success-alert/success-alert.component';
+import { WarningAlertComponent } from './components/warning-alert/warning-alert.component';
+import { UsersComponent } from './users/users.component';
 
 @Component({
   selector: 'app-root',
