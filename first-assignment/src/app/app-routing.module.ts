@@ -11,6 +11,10 @@ const routes: Routes = [
   {
     path: 'td-form',
     loadChildren: './template-driven-form/template-driven-form.module#TemplateDrivenFormModule'
+  },
+  {
+    path: 'reactive-form',
+    loadChildren: './reactive-form/reactive-form.module#ReactiveFormModule'
   }
 ];
 
